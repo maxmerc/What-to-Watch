@@ -41,8 +41,6 @@ npm install
 
 ### Running it
 
-1. 
-
 ```shell
 npm start
 ```
