@@ -59,7 +59,7 @@ science. Max enjoys working on projects that involve machine
 learning and data analysis but has a passion for movies. He aspires
 to be a software engineer or quantitative devloper / trader and is
 always looking for new opportunities to learn and grow. Contact him:
-[Link text](https://www.linkedin.com/in/max-mercado-568a50273/ 'LinkedIn')
+[LinkedIn](https://www.linkedin.com/in/max-mercado-568a50273/)
 
 ### John Lee
 
@@ -68,7 +68,7 @@ Vanderbilt University. John also enjoys studying machine learning
 and web development, with focuses on frontend technologies. He hopes
 to become a software developer or a product manager and has a
 passion for learning new things and meeting new people. Contact him:
-[Link text](https://www.linkedin.com/in/johnjaemin/ 'LinkedIn')
+[LinnkedIn](https://www.linkedin.com/in/johnjaemin/)
 
 ## Licensing
 
