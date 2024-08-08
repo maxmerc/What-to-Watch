@@ -1,0 +1,40 @@
+# .github/workflows/test-development.yml
+
+name: Check Development Server
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Start dev server and test
+        run: |
+          npm run dev & 
+          DEV_SERVER_PID=$!
+
+          sleep 10
+
+          if ps -p $DEV_SERVER_PID > /dev/null
+          then
+            echo "Dev server started successfully"
+            kill $DEV_SERVER_PID
+            exit 0
+          else
+            echo "Dev server failed to start or crashed"
+            exit 1
+          fi
