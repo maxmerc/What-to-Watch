@@ -63,29 +63,3 @@ passion for learning new things and meeting new people. Contact him:
 This software is distributed under the terms of the MIT License. You have the freedom to use, modify, distribute, and sell it for any purpose. However, you must include the original copyright notice and the permission notice found in the LICENSE file in all copies or substantial portions of the software.
 
 You can [read more about the MIT license](https://choosealicense.com/licenses/mit/), and [compare different open-source licenses at `choosealicense.com`](https://choosealicense.com/licenses/).
-
-## Some Ethical Guidelines to Consider
-
-Web scraping is a powerful tool for gathering data, and its [legality has been upheld](https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn).
-
-But it is important to use it responsibly and ethically. Here are some guidelines to consider:
-
-1. Review the website's Terms of Service and [`robots.txt`](https://en.wikipedia.org/wiki/robots.txt) file to understand allowances and restrictions for automated scraping before starting.
-
-2. Avoid scraping copyrighted content verbatim without permission. Summarizing is safer. Use data judiciously under "fair use" principles.
-
-3. Do not enable illegal or fraudulent uses of scraped data, and be mindful of security and privacy.
-
-4. Check that your scraping activity does not overload or harm the website's servers. Scale activity gradually.
-
-5. Reflect on whether scraping could unintentionally reveal private user or organizational information from the site.
-
-6. Consider if scraped data could negatively impact the website's value or business model.
-
-7. Assess if decisions made using the data could contribute to bias, discrimination or unfair profiling.
-
-8. Validate quality of scraped data, and recognize limitations in ensuring relevance and accuracy inherent with web data.  
-
-9. Document your scraping process thoroughly for replicability, transparency and accountability.
-
-10. Continuously re-evaluate your scraping program against applicable laws and ethical principles.
